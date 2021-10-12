@@ -1,0 +1,17 @@
+This is a program that takes a product name as input and retrieves the current price and quantity for that product.
+
+function main(string argument){
+	Parse through JSON file
+	TRY
+	Parse through file "exercise44_input"
+	String input
+	Print "What is product name? "
+	Take input and iterate through values in file
+	WHILE (iterator has next)
+	{
+	IF input matches value in file
+		Print "Name"
+		Print "Price"
+		Print "Quantity"
+	IF input does not match
+	Print "Sorry, that product was not found in our inventory"

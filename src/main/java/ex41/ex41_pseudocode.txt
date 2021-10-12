@@ -1,0 +1,23 @@
+This program will alphabetize the contents in a given file. 
+
+function readNames(scan input, array list of names){
+	WHILE the input has a name in the next line
+		add in the names in the list }
+	END WHILE
+funtion outputNames(array list of names){
+	Write a file and name it "exercise41_output.txt"
+	Write the total number of names
+	FOR(string and names){
+		Write the names in list and new line }
+	END FOR
+	Close output file
+
+function main(string argument){
+	Scan input file names "exercise41_input.txt"
+	Assign new array list 
+	CALL readNames(input file, names in list)
+	Sort names alphabetically
+	Close input file
+	
+	CALL outputNames
+}

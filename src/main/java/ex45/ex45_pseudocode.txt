@@ -1,0 +1,13 @@
+This program reads the file and looks for all occurrences of the word utilize and replaces each occurrence with use.
+
+function main(string argument){
+	Create path to input file
+	TRY{
+	WHILE(scanner has next)
+	{
+	replace "utilize" with "use"
+	write the sentence
+	}
+	}
+	FINALLY
+	{ close output file}

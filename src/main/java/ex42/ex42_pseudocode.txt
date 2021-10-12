@@ -1,0 +1,18 @@
+This program will breakdown unstructured data and put it in a structured format.
+
+function printDetails(string filename){
+	TRY //testing code for errors{
+	Add new file
+	Scan new file
+	WHILE (scan has a next value){
+		String 's' is next line
+		String array is split by ','
+		Print string values separated by commas}
+	END WHILE
+	CATCH(if file is not found)
+	{ Print "File not found"}
+
+function main(string argument){
+	Print string values separated by commas
+	Print dashed line
+	CALL printDetails using file "exercise42_input.txt"

@@ -1,0 +1,21 @@
+This program counts the frequency of words in the file.
+
+function readFileIntoString(string, character set)
+	TRY
+	scanneer is the path of the file and the value of the frequency of words.
+	END TRY
+function countWordsFrequency(string)
+	Map string and integer
+	FOR value less than array length
+	IF map contains array of value i
+		put array increments and get increments append 1
+	ELSE
+	just array
+	FOR map and integer entry
+	Print value and "*" indicating frequency
+function main(string argument)
+	Open "exercise46_input.txt"
+	TRY
+	read file into string
+	replace from file to frequency
+	print words and frequency

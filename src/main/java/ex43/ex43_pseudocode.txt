@@ -1,0 +1,37 @@
+This program generates a website skeleton.
+
+function main
+	ADD scanner
+	Character variable "js" is equal to "N"
+	Character variable "css" is equal to "N"
+	
+	Print "Site name"
+	take input
+	Print "Author"
+	take input
+	Print "Do you want a folder for JavaScript?"
+	take input
+	Print "Do you want a folder for CSS?"
+	take input
+	
+	get information from system about user directory
+	IF (website created)
+	Print "created"
+	write files for html index
+	Write file for DOCTYPE
+	Write file for title
+	Write file for author
+	Write file for header and body
+	close files
+	Print "created (website name)"
+	
+	IF variables js and css is Y
+	open files for JS and CSS 
+	Print "Created"
+	ELSE
+	Print Not created
+	
+	END IF
+	END IF
+	ELSE
+	Print"website not created"
